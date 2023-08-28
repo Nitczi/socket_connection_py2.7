@@ -2,8 +2,6 @@
 import socket
 import sys
 
-file = open("/etc/services", 'r')
-
 if len(sys.argv)<=2:
     print "Incorret use"
     print sys.argv[0], "[TARGET] [PORT]"
